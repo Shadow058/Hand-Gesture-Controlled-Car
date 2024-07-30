@@ -9,6 +9,7 @@ This project aims to develop a user-friendly and natural method for controlling 
 - **Motor Driver (L293D)**: Controls motor speed and direction.
 - **Robot Car Chassis**: Includes wheels and motors for locomotion.
 - **Ultrasonic Sensor**: Provides obstacle detection and avoidance capability.
+- **Buzzer**: Shows detecton by making a sound.
 
 ## Circuit Diagram
 ![image](https://github.com/user-attachments/assets/81422c9e-9a08-41a8-b64c-9632d5ce8e41)
