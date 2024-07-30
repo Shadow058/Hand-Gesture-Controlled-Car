@@ -14,15 +14,8 @@ This project aims to develop a user-friendly and natural method for controlling 
 ![image](https://github.com/user-attachments/assets/81422c9e-9a08-41a8-b64c-9632d5ce8e41)
 
 ## Project Overview
-- **Hand Gesture Controller**:
-  - MPU6050 accelerometer detects hand orientation.
-- **Arduino Programming**:
-  - Processes hand control data.
-  - Sends commands to motor drivers for movement.
-- **Motor Control**:
-  - L293D motor driver controls speed and direction of wheels.
-- **Obstacle Detection**:
-  - Ultrasonic sensor detects and avoids obstacles.
-- **System Integration**:
-  - Assembled robot car chassis with all components for full functionality.
-
+- **Hand Gesture Controller**: The hand gesture controller consists of a flex sensor and an accelerometer to capture hand movements. The flex sensor is used to detect finger movements, while the accelerometer detects hand orientation.
+- **Robot Car**: The robot car is equipped with a motor driver for processing the data and sending commands to the motors to drive the wheels.
+- **Arduino Programming**: The Arduino board is programmed to receive the hand control data, process it, and send commands to the motors to control the robot car's movement.
+- **Hand Motion Algorithm**: The proposed system uses a hand motion algorithm to recognize different hand gestures and translate them into specific commands for the robot car
+- **Ultrasound-Based Object Avoidance**: Additionally, the proposed system incorporates an ultrasound sensor to enable obstacle detection and avoidance. This feature enhances the safety and autonomy of the robot car by allowing it to detect obstacles in its path and navigate around them.
