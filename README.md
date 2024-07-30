@@ -1,0 +1,28 @@
+# Hand Gesture-Controlled Robot Car using Arduino
+
+## Introduction
+This project aims to develop a user-friendly and natural method for controlling a four-wheeled robot car using hand gestures. By utilizing sensors, and Arduino programming, the system recognizes hand gestures to control the movement of the robot car. The project integrates obstacle detection for enhanced safety and navigation.
+
+## Components Required
+- **MPU6050 (Gyroscope and Accelerometer)**: Enables precise motion tracking for responsive hand gesture control.
+- **Arduino Uno**: Receives hand control data, processes it, and controls the motors.
+- **Motor Driver (L293D)**: Controls motor speed and direction.
+- **Robot Car Chassis**: Includes wheels and motors for locomotion.
+- **Ultrasonic Sensor**: Provides obstacle detection and avoidance capability.
+
+## Circuit Diagram
+![image](https://github.com/user-attachments/assets/81422c9e-9a08-41a8-b64c-9632d5ce8e41)
+
+## Project Overview
+- **Hand Gesture Controller**:
+  - MPU6050 accelerometer detects hand orientation.
+- **Arduino Programming**:
+  - Processes hand control data.
+  - Sends commands to motor drivers for movement.
+- **Motor Control**:
+  - L293D motor driver controls speed and direction of wheels.
+- **Obstacle Detection**:
+  - Ultrasonic sensor detects and avoids obstacles.
+- **System Integration**:
+  - Assembled robot car chassis with all components for full functionality.
+
